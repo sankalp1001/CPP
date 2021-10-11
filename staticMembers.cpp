@@ -23,7 +23,7 @@ int employee :: count ;
   employee sankalp;
   sankalp.setData();
   sankalp.getData();
-  sankalp.Count();
+  employee::Count();
    return 0;  
  }
 
