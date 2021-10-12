@@ -13,8 +13,9 @@ Complex::Complex(int x,int y){
  b=y;
 }
 int main(){
-  Complex c(4,6);
-  c.getData(); 
- 
+  Complex c1(4,6);
+  c1.getData(); 
+  Complex c2= Complex(5,7);
+  c2.getData();
     return 0;
 }
